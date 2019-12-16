@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VicSites.Web", "src\VicSite
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{E82A50F3-D061-43FC-9CAF-300866FA21B3}"
 	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
 		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
