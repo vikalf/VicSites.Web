@@ -9,7 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", 
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
 		Dockerfile = Dockerfile
+		Dockerfile.test = Dockerfile.test
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VicSites.Web.Tests", "test\VicSites.Web.Tests\VicSites.Web.Tests.csproj", "{EE35D4C8-E577-4B58-91BE-03BEAFDB61D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +24,10 @@ Global
 		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE35D4C8-E577-4B58-91BE-03BEAFDB61D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE35D4C8-E577-4B58-91BE-03BEAFDB61D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE35D4C8-E577-4B58-91BE-03BEAFDB61D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE35D4C8-E577-4B58-91BE-03BEAFDB61D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
