@@ -4,3 +4,6 @@ services:
 
 before_install:
     - docker build -t vikalf/vicsites.web .
+
+script:
+    - docker run vikalf/vicsites.web
