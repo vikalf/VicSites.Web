@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VicSites.Web", "src\VicSites.Web\VicSites.Web.csproj", "{150851B8-E351-45BC-B3B0-C6EB75D5560D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{E82A50F3-D061-43FC-9CAF-300866FA21B3}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150851B8-E351-45BC-B3B0-C6EB75D5560D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92B20BAA-1401-42E0-9E84-8A5024B2A1C4}
+	EndGlobalSection
+EndGlobal
